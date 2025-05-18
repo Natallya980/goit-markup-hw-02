@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@700&family=Roboto:ital,wght@400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
   </head>
   <body>
     <header>
@@ -18,26 +29,30 @@
       <address>
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="contact-link"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+11(000)1111111">+11(000)111-11-11</a>
+            <a href="tel:+110001111111" class="contact-link"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="page">
+        <h1 class="page-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="btn">Order Service</button>
       </section>
       <section>
-        <h2>description</h2>
+        <h2 class="page-title1">description</h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="page-title2">Strategy</h3>
+            <p class="page-dscr">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
@@ -66,7 +81,7 @@
         </ul>
       </section>
       <section>
-        <h2>Our Team</h2>
+        <h2 class="page-title1">Our Team</h2>
 
         <ul>
           <li>
@@ -77,7 +92,7 @@
               height="260"
             />
             <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <p class="">Product Designer</p>
           </li>
           <li>
             <img
@@ -108,6 +123,61 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="page-title1">Our Portfolio</h2>
+        <ul>
+          <li>
+            <h3>Banking App</h3>
+            <p>App</p>
+            <img src="./images/bapp.jpg" alt="app" width="360" height="300" />
+          </li>
+          <li>
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+            <img
+              src="./images/payment.jpg"
+              alt="Marketing"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <h3>Meditation App</h3>
+            <p>App</p>
+            <img src="./images/mapp.jpg" alt="app" width="360" height="300" />
+          </li>
+          <li>
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+            <img
+              src="./images/tservice.jpg"
+              alt="Marketing"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+            <img
+              src="./images/screenils.jpg"
+              alt="Design"
+              width="360"
+              height="300"
+            />
+          </li>
+          <li>
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+            <img
+              src="./images/onlinecs.jpg"
+              alt="Marketing"
+              width="360"
+              height="300"
+            />
           </li>
         </ul>
       </section>

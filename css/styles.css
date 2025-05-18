@@ -1,0 +1,64 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455
+ background-color:#ffffff ;
+}
+.page {
+  background-color: #2e2f42;
+  width: 1440px;
+}
+.contact-link {
+  font-size: 16px;
+
+  line-height: 1.5;
+
+  color: #434455;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+.btn {
+  background-color: #4d5ae5;
+  width: 169px;
+  height: 56px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.btn:focus,
+.btn:hover {
+  color: #404bbf;
+}
+.page-title {
+  font-size: 56px;
+  line-height: 1.07143;
+  
+  color: #ffffff;
+}
+
+.page-title2 {font-weight: 500;
+font-size: 20px;
+
+
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.page-title1{font-weight: 700;
+ font-size: 36px;
+ 
+ 
+ line-height: 1.11111;
+ letter-spacing: 0.02em;
+ text-align: center;
+ }
+
+
+ .page-dscr {font-weight: 400;
+ font-size: 16px;
+ 
+ 
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ }
