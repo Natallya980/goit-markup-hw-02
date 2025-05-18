@@ -9,6 +9,9 @@ body {
 .page1 {
   background-color: #f4f4fd;
 }
+.link1 {
+  font-style: normal;
+}
 .contact-link {
   font-size: 16px;
   letter-spacing: 0.02em;
@@ -51,7 +54,7 @@ body {
   line-height: 1.11;
   text-transform: capitalize;
   letter-spacing: 0.02em;
-
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -63,10 +66,9 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.footer {
-  background-color: #2e2f42;
-}
+
 .logo {
+  background-color: #2e2f42;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -75,12 +77,17 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.logo-color {
+.logo-color1 {
   line-height: 1.5;
   color: #f4f4fd;
 }
+.logo-color {
+  color: #2e2f42;
+}
 .page-dscr1 {
   letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #f4f4fd;
 }
 .link {
   font-size: 16px;
