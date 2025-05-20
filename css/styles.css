@@ -3,13 +3,35 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.page {
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logo-color {
+  color: #2e2f42;
+}
+
+.hero-section,
+.page-footer {
   background-color: #2e2f42;
 }
-.page1 {
-  background-color: #f4f4fd;
+.link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.link1 {
+.link:focus,
+.link:hover {
+  color: #404bbf;
+}
+.header-contact-link {
   font-style: normal;
 }
 .contact-link {
@@ -23,32 +45,28 @@ body {
 .contact-link:focus {
   color: #404bbf;
 }
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
 .btn {
   background-color: #4d5ae5;
-
+  font-weight: 500;
   color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .btn:focus,
 .btn:hover {
-  color: #404bbf;
-}
-.page-title {
-  font-size: 56px;
-  line-height: 1.07143;
-  color: #ffffff;
+  background-color: #404bbf;
 }
 
-.page-title2 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.page-title1 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -58,7 +76,15 @@ body {
   color: #2e2f42;
 }
 
-.page-dscr {
+.dscr-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.dscr-text {
   font-weight: 400;
   font-size: 16px;
 
@@ -67,36 +93,17 @@ body {
   color: #434455;
 }
 
-.logo {
-  background-color: #2e2f42;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+.team-section {
+  background-color: #f4f4fd;
 }
-.logo-color1 {
+
+.footer-logo-color {
   line-height: 1.5;
   color: #f4f4fd;
 }
-.logo-color {
-  color: #2e2f42;
-}
-.page-dscr1 {
+
+.footer-text {
   letter-spacing: 0.02em;
   line-height: 1.5;
   color: #f4f4fd;
-}
-.link {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.link:focus,
-.link:hover {
-  color: #404bbf;
 }
