@@ -60,6 +60,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .btn:focus,
 .btn:hover {
@@ -95,6 +96,9 @@ body {
 
 .team-section {
   background-color: #f4f4fd;
+}
+.team-itam {
+  background-color: #ffffff;
 }
 
 .footer-logo-color {
