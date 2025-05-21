@@ -14,11 +14,6 @@ body {
   line-height: 1.5;
   font-weight: 400;
 }
-.section-title,
-.hero-title,
-.dscr-title {
-  letter-spacing: inherit;
-}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -62,6 +57,7 @@ body {
   line-height: 1.07;
   color: #ffffff;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 .btn {
   background-color: #4d5ae5;
@@ -83,6 +79,7 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .dscr-title {
@@ -90,6 +87,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .dscr-text {
